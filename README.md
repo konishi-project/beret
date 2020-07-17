@@ -12,16 +12,14 @@ Just know that FastAPI has taken some inspirations from Flask and has a similar 
 - The goal is to use a more modern framework that utilizes the standard of developing web REST APIs.
 
 - The previous implementation was written using Flask
-with the Flask-RESTX framework which is a fork and drop-in replacement for Flask-RESTPlus which is quite buggy at the moment and the development is slow.
+with the Flask-RESTX framework which is a fork and drop-in replacement for Flask-RESTPlus **(Project has been considered dead and unmaintained)**,which is quite buggy at the moment and the development is slow.
 
-- It's not about the latest and greatest, but another reason to be doing this is to eventually have a stable and implemetation that scales with proper testing to assist with its development process which FastAPI supports really well.
+- It's not about the latest and greatest, but another reason to be doing this is to eventually have a stable and that the implemetation properly scales which utilizes unit testing to assist with its development process, which FastAPI supports really well.
 
-**Why Beret?**
+**Why "Beret"?**
 
-- I couldn't really think of another name, Be stands for
-backend and re simple means rewritten
-- I have plans to archive the old backend and rename this to Zimmerman so it might not matter at the end.
-
+I couldn't really think of another name, "Be" stands for
+backend, "re" simple means reformed, and just decided to add a "t" at the end. I do have plans however to archive the old backend and rename this project to Zimmerman to remove any confusion, so it might not matter at the end.
 
 ## Requirements
 
