@@ -9,6 +9,9 @@ pylint = "*"
 [packages]
 fastapi = "*"
 uvicorn = "*"
+aiosqlite = "*"
+sqlalchemy = "*"
+passlib = "*"
 
 [requires]
 python_version = "3.8"
