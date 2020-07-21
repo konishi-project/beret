@@ -33,6 +33,8 @@ backend, "re" simple means reformed, and just decided to add a "t" at the end. I
 
 @TODO: Complete installation and setting up section so that it will run in most environments.
 
+To run the application use (On Linux/MacOS): `$ uvicorn src.main:app`
+
 ## Deploying
 
 There are a lot of guides on how to deploy a FastAPI application, which is also available in their [documentation](https://fastapi.tiangolo.com/deployment/).
