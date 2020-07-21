@@ -4,12 +4,9 @@ from typing import Dict
 # Instantiate application.
 app = FastAPI()
 
-# @TODO: Implement routes.
-# @TODO: Implement middlewares
+# Load routers
+from .modules.user.api import router as user_router
 
-@app.get('/')
-async def sample():
-    data: Dict[str, str] = {
-      "Hello": "World!"
-    }
-    return data
+app.include_router(user_router, prefix="/user", tags=["user"])
+
+# @TODO: Implement middlewares
