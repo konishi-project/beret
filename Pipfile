@@ -12,6 +12,7 @@ uvicorn = "*"
 aiosqlite = "*"
 sqlalchemy = "*"
 passlib = "*"
+email-validator = "*"
 
 [requires]
 python_version = "3.8"
