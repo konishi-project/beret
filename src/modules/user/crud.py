@@ -2,7 +2,6 @@
 db = None # Temporary
 
 from .model import User
-from .schemas import UserCreate
 
 def get_user(username: str):
     return db.session.query(User).filter_by(username=username).first()
