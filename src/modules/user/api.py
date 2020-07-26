@@ -35,7 +35,7 @@ async def remove_user(email: str):
         )
 
     ret: Dict[str, str] = {
-        'message': f'User set for deletion, it will now be no longer available.'
+        'message': f'User <{ email }> set for deletion, it will now be no longer available.'
     }
 
     return ret

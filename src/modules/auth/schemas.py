@@ -6,8 +6,13 @@ class UserBase(BaseModel):
     password: str = Body(..., example='abcd1234')
 
 class UserRegister(UserBase):
+    fullName: str = Body(...,
+                        regex="/^[A-Za-z]+((\s)?(('||\.)?([A-Za-z])+))*$/;", #pylint: disable=anomalous-backslash-in-string
+                        example='John Doe'
+                    )
+
     username: str = Body(...,
-                        regex='/^([A-Za-z0-9_](?:(?:[A-Za-z0-9_]|(?:\.(?!\.))){0,28}(?:[A-Za-z0-9_]))?)$/;', #pylint: disable=anomalous-backslash-in-string
+                        regex="/^([A-Za-z0-9_](?:(?:[A-Za-z0-9_]|(?:\.(?!\.))){0,28}(?:[A-Za-z0-9_]))?)$/;", #pylint: disable=anomalous-backslash-in-string
                         example='user._.name'
                     )
 

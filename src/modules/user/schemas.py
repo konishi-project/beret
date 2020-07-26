@@ -8,4 +8,4 @@ class UserBase(BaseModel):
     fullName: Optional[str]
 
 class DeleteResponse(BaseModel):
-    message: str = Body(..., example='User set for deletion, it will now be no longer available.')
+    message: str = Body(..., example='User <user@email.com> set for deletion, it will now be no longer available.')
