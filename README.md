@@ -19,22 +19,22 @@ with the Flask-RESTX framework which is a fork and drop-in replacement for Flask
 **Why "Beret"?**
 
 I couldn't really think of another name, "Be" stands for
-backend, "re" simple means reformed, and just decided to add a "t" at the end. I do have plans however to archive the old backend and rename this project to Zimmerman to remove any confusion, so it might not matter at the end.
+backend, "re" simply means reformed, and just decided to add a "t" at the end. I do have plans however to archive the old backend and rename this project to Zimmerman to remove any confusion, so it might not matter at the end.
 
-## Requirements
+## ⚙ Requirements
 
 @TODO: Complete requirements section needed to run the application.
 
-## Contributing
+## 🤝 Contributing
 
 @TODO: Complete contributing section and guidelines for people to contribute to the project.
 
-## Installation and Setting up
+## 🛠 Installation and Setting up
 
 @TODO: Complete installation and setting up section so that it will run in most environments.
 
 To run the application use (On Linux/MacOS): `$ uvicorn src.main:app`
 
-## Deploying
+## 🚀 Deploying
 
 There are a lot of guides on how to deploy a FastAPI application, which is also available in their [documentation](https://fastapi.tiangolo.com/deployment/).
